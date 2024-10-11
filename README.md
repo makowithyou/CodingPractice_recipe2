@@ -15,4 +15,4 @@ https://code-jump.com/recipe2-menu/
 - [Adobe XD デザインカンプ](https://xd.adobe.com/view/8164fbcf-5d3e-4bdf-8d9e-5cb5d58329bb-d437/?hints=off)
 - [Figma デザインカンプ](https://www.figma.com/design/ILuwOm4aunXJlxLDGotAtg/recipe2?node-id=0-1&node-type=canvas&t=SySPPQ9strI8esNV-0)
 - [デモサイト](https://code-jump.com/demo/html/recipe2/)
-- [完成ページ](https://makowithyou.github.io/CodingPractice_recipe/recipe2)
+- [完成ページ](https://makowithyou.github.io/CodingPractice_recipe2/)
