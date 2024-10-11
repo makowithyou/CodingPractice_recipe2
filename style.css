@@ -108,6 +108,9 @@ p.copy {
 /* 大きい画面 ここまで */
 
 @media (max-width: 834px) {
+main > div {
+    flex-direction: column;
+}
 img + div {
     padding: 0 18.8px;
 }
