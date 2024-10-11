@@ -1,0 +1,111 @@
+/* 共通 css ここから */
+:root {
+    --font-color: #2B2A27;
+    --border-color: #CCCCCC;
+}
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    font-family: "Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif";
+    color: var(--font-color);
+    margin: unset;
+}
+img {
+    display: block;
+    width: 100%;
+}
+h1, p, dl, dt, dd, ul, ol {
+    margin: unset;
+    padding: unset;
+}
+h1 {
+    font-family: "Meiryo";
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--font-color);
+}
+p, dd, li {
+    font-family: "Meiryo";
+    font-size: 16px;
+    color: var(--font-color);
+}
+dt {
+    font-family: "Meiryo";
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--font-color);
+}
+p.copy, a, a:visited {
+    font-family: "Arial";
+    font-size: 12px;
+    color: var(--font-color);
+    text-align: center;
+}
+a.button {
+    font-family: "Meiryo";
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 共通 css ここまで */
+
+/* 大きい画面 ここから */
+main > div {
+    display: flex;
+}
+img.recipe {
+    height: 700px;
+    object-fit: cover;
+}
+div.text {
+    padding: 0 5%;
+}
+h1, p, dt, li {
+    text-align: start;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+dl {
+    margin: 40px 0;
+}
+dt {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+ul {
+    list-style: none;
+}
+ol {
+    padding-left: 20px;
+}
+li {
+    border-bottom: 1px dashed var(--border-color);
+    padding: 6px 0;
+}
+a.button {
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid var(--font-color);
+    padding: 18px 60px;
+}
+div.sns {
+    margin-top: 80px;
+}
+div.sns a:not(:last-child) {
+    margin-right: 20px;
+}
+p.copy {
+    text-align: center;
+    margin: 20px 0;
+}
+/* 大きい画面 ここまで */
+
+@media (max-width: 834px) {
+img + div {
+    padding: 0 18.8px;
+}
+}
